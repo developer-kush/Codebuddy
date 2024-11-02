@@ -1,0 +1,67 @@
+{
+    "secret": {
+        "name": "I don't know",
+        "default_code": "def solve(x: int) -> int:\n  ",
+        "description": "You're given an integer as an input, do something with it and return :), do ANYTHING, but DON'T return the same number"
+    },
+    "coin_change": {
+        "name": "Coin Change Problem",
+        "default_code" : "class Solution:\n  def coinChange(self, coins: List[int], amount: int) -> int:\n    ",
+        "description" : "Given an integer array 'coins' representing the denominations and an integer 'amount' representing a total amount of money, return the fewest number of coins needed to make up that amount. If that amount cannot be made up, return -1."
+    },
+    "sqrtx": {
+        "name": "Sqrt(x)",
+        "default_code" : "class Solution:\n  def mySqrt(self, x: int) -> int:\n    ",
+        "description" : "Given a non-negative integer x, compute and return the square root of x."
+    },
+    "two_sum": {
+        "name": "Two Sum",
+        "default_code": "class Solution:\n  def twoSum(self, nums: List[int], target: int) -> List[int]:\n    ",
+        "description": "Given an array of integers 'nums' and an integer 'target', return indices of the two numbers such that they add up to 'target'. You may assume that each input would have exactly one solution, and you may not use the same element twice. Return the answer in any order."
+    },
+    "reverse_linked_list": {
+        "name": "Reverse Linked List",
+        "default_code": "class Solution:\n  def reverseList(self, head: ListNode) -> ListNode:\n    ",
+        "description": "Given the head of a singly linked list, reverse the list and return its head. You should change the pointers of the nodes in place."
+    },
+    "merge_intervals": {
+        "name": "Merge Intervals",
+        "default_code": "class Solution:\n  def merge(self, intervals: List[List[int]]) -> List[List[int]]:\n    ",
+        "description": "Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals and return an array of the non-overlapping intervals that cover all the intervals in the input."
+    },
+    "longest_palindromic_substring": {
+        "name": "Longest Palindromic Substring",
+        "default_code": "class Solution:\n  def longestPalindrome(self, s: str) -> str:\n    ",
+        "description": "Given a string s, return the longest palindromic substring in s. A palindrome is a sequence that reads the same backward as forward."
+    },
+    "unique_paths": {
+        "name": "Unique Paths",
+        "default_code": "class Solution:\n  def uniquePaths(self, m: int, n: int) -> int:\n    ",
+        "description": "A robot is located at the top-left corner of an m x n grid (marked 'Start' in the grid below). The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the grid below). How many possible unique paths are there?"
+    },
+    "find_median_from_data_stream": {
+        "name": "Find Median from Data Stream",
+        "default_code": "class MedianFinder:\n  def __init__(self):\n    \n\n  def addNum(self, num: int) -> None:\n    \n\n  def findMedian(self) -> float:\n    ",
+        "description": "The 'MedianFinder' class will handle a data structure that supports adding numbers and finding the median of the current numbers. Implement 'MedianFinder' with functions to add a number and return the median of all elements added so far. The add operation has no specific constraints on time complexity, but the findMedian operation should ideally work in O(1) time complexity."
+    },
+    "longest_consecutive_sequence": {
+        "name": "Longest Consecutive Sequence",
+        "default_code": "class Solution:\n  def longestConsecutive(self, nums: List[int]) -> int:\n    ",
+        "description": "Given an unsorted array of integers, 'nums', return the length of the longest consecutive elements sequence. You must write an algorithm that runs in O(n) time complexity."
+    },
+    "rotate_image": {
+        "name": "Rotate Image",
+        "default_code": "class Solution:\n  def rotate(self, matrix: List[List[int]]) -> None:\n    ",
+        "description": "You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise). You have to rotate the image in-place, which means you have to modify the input 2D matrix directly."
+    },
+    "valid_parentheses": {
+        "name": "Valid Parentheses",
+        "default_code": "class Solution:\n  def isValid(self, s: str) -> bool:\n    ",
+        "description": "Given a string containing only the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if open brackets are closed in the correct order and types match correctly."
+    },
+    "largest_rectangle_in_histogram": {
+        "name": "Largest Rectangle in Histogram",
+        "default_code": "class Solution:\n  def largestRectangleArea(self, heights: List[int]) -> int:\n    ",
+        "description": "Given an array of integers 'heights' representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram."
+    }
+}
